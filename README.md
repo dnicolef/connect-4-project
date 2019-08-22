@@ -69,14 +69,33 @@ Output
 **Checking for winning combination after each play**
 
 ```
-if(y > 2)
+if(y > 2) //case 1
   check position(x)(y) == position(1)(y-1) == position(x)(y-3) == position(x)(y-3)
-if(y > 2 and x < 3)
+if(y > 2 and x < 3) //case 2
   check position(x)(y) == position(x+1)(y-1) == position(x+2)(y-2) == position(x+3)(y-3)
-if(x < 3)
+if(x < 3) //case 3
   check position(x)(y) == position(x+1)(y) == position(x+2)(y) == position(x+3)(y)
-if(x < 3 and y < 4)
+if(x < 3 and y < 4) //case 4
   check position(x)(y) == position(x+1)(y+1) == position(x+2)(y+1) == position(x+3)(y+1)
-if(y < 4)
+if(y < 4) //case 5
   check position(x)(y) == position(x)(y+1) == position(x)(y+2) == position(x)(y+3)
 ```
+case 1
+
+![image 1](https://raw.githubusercontent.com/dnicolef/connect-4-project/master/leftward.PNG)
+
+case 2
+
+![image 1](https://raw.githubusercontent.com/dnicolef/connect-4-project/master/downward.PNG)
+
+case 3
+
+![image 1](https://raw.githubusercontent.com/dnicolef/connect-4-project/master/leftward.PNG)
+
+case 4
+
+![image 1](https://raw.githubusercontent.com/dnicolef/connect-4-project/master/rightright.PNG)
+
+case 5
+
+![image 1](https://raw.githubusercontent.com/dnicolef/connect-4-project/master/rightward.PNG)
