@@ -68,4 +68,15 @@ Output
 ```
 **Checking for winning combination after each play**
 
-(To do...)
+```
+if(y > 2)
+  check position(x)(y) == position(1)(y-1) == position(x)(y-3) == position(x)(y-3)
+if(y > 2 and x < 3)
+  check position(x)(y) == position(x+1)(y-1) == position(x+2)(y-2) == position(x+3)(y-3)
+if(x < 3)
+  check position(x)(y) == position(x+1)(y) == position(x+2)(y) == position(x+3)(y)
+if(x < 3 and y < 4)
+  check position(x)(y) == position(x+1)(y+1) == position(x+2)(y+1) == position(x+3)(y+1)
+if(y < 4)
+  check position(x)(y) == position(x)(y+1) == position(x)(y+2) == position(x)(y+3)
+```
