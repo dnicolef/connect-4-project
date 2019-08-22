@@ -66,6 +66,6 @@ Output
   [ 1, 0, 2, 1, 0, 1, 2 ],
   [ 2, 0, 2, 1, 0, 1, 1 ] ]
 ```
-**Checking for winning combination on each play**
+**Checking for winning combination after each play**
 
 (To do...)
