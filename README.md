@@ -130,7 +130,7 @@ case 2
 
 case 3
 
-![image 1](https://raw.githubusercontent.com/dnicolef/connect-4-project/master/leftward.PNG)
+![image 1](https://raw.githubusercontent.com/dnicolef/connect-4-project/master/leftleft.PNG)
 
 case 4
 
