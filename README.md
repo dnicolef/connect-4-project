@@ -70,7 +70,7 @@ Output
 
 ```
 if(y > 2) //case 1
-  check position(x)(y) == position(1)(y-1) == position(x)(y-3) == position(x)(y-3)
+  check position(x)(y) == position(x)(y-1) == position(x)(y-2) == position(x)(y-3)
 if(y > 2 and x < 3) //case 2
   check position(x)(y) == position(x+1)(y-1) == position(x+2)(y-2) == position(x+3)(y-3)
 if(x < 3) //case 3
